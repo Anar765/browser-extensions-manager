@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Anar765/browser-extensions-manager)
-- Live Site URL: (https://anar765.github.io/browser-extensions-manager/)
+- Live Site URL: (https://browser-extensions-manager-swart.vercel.app)
 
 ## My process
 Additionally, I learned how to implement theme switching (dark/light mode) using context and custom hooks — improving user experience and personalization.
@@ -119,5 +119,5 @@ This was an excellent course where I learned a lot about React and had the chanc
 
 ## Author
 
-- Website - [Anar765](https://anar765.github.io/browser-extensions-manager/)
+- Website - [Anar765](https://browser-extensions-manager-swart.vercel.app)
 - Frontend Mentor - [@Anar765](https://www.frontendmentor.io/profile/Anar765)
