@@ -119,5 +119,5 @@ This was an excellent course where I learned a lot about React and had the chanc
 
 ## Author
 
-- Website - [Anar765](https://browser-extensions-manager-swart.vercel.app)
+- Website - [https://browser-extensions-manager-swart.vercel.app](https://browser-extensions-manager-swart.vercel.app)
 - Frontend Mentor - [@Anar765](https://www.frontendmentor.io/profile/Anar765)
