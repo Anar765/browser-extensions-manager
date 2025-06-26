@@ -1,0 +1,75 @@
+@import url('./variables.css');
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.buttons button {
+    border-radius: 18px;
+    color: var(--Neutral-100);
+    background: var(--Neutral-700);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--Neutral-600);
+    transition: background 0.2s ease-out;
+    cursor: pointer;
+}
+
+.buttons button:hover, 
+.buttons button.clicked:focus, 
+.buttons button.clicked {
+    background-color: var(--Red-400);
+    font-weight: 600;
+    color: var(--Neutral-800);
+    border: 1px solid var(--Neutral-700);
+}
+
+.buttons button:focus { 
+    background: var(--Neutral-600);
+    color: var(--Neutral-0);
+    outline: 2px solid var(--Red-400); 
+    border: 1px solid var(--Neutral-900)
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 0.5rem;
+}
+
+/* <---- Light Mode ----> */
+
+main.light, main.light .cards .card {
+    color: var(--Neutral-900);
+}
+
+main.light .buttons button {
+    background: var(--Neutral-0);
+    color: var(--Neutral-700);
+    border: 1px solid var(--Neutral-200);
+    font-weight: 400;
+}
+
+main.light .buttons button:hover {
+    background: var(--Neutral-100);
+    color: var(--Neutral-600);
+}
+
+main.light .buttons button.clicked,
+main.light .buttons button.clicked:focus {
+    background: var(--Red-600);
+    color: var(--Neutral-100);
+}
+
+main.light .buttons button.clicked:focus {
+    font-weight: 500;
+    border: 1px solid var(--Neutral-0);
+    outline: 2px solid var(--Red-400);
+}
